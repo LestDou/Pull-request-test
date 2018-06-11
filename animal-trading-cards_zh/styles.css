@@ -1,17 +1,19 @@
 /* 添加 CSS */
 
 .downlayer {
-  width: 520px;
+  width: 420px;
   box-shadow: 10px 10px 5px #888888;
   border: 1px solid black;
   text-align: center;
+  background-color: 		#5F9EA0;
+  color: white;
 
 }
 
 .title {
-  width:500px;
+  width:400px;
   text-align: left;
-  padding-left: 26px;
+  padding-left: 35px;
   top: 5px;
   position: inherit;
   margin: auto;
@@ -20,16 +22,26 @@
 
 }
 .picture {
-  width: 470px;
+  width: 350px;
+  height: 230px;
 }
+
+.list {
+  text-align: left;
+  list-style-type: none;
+  padding-left: 1px;
+}
+
 .uplayer{
-  width:450px;
+  width:330px;
   border: 1px solid black;
-  text-align: center;
+  text-align: left;
   padding: 10px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 14px;
+}
+.describe {
   font-style: italic;
 }
